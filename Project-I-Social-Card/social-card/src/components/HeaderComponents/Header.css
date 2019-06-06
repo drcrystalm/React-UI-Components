@@ -1,5 +1,23 @@
 /* All styles for your header Components live here */
-.Thumbnail {
+.thumbnail {
     width: 25%;
     height: 25%;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    display: flex;
+    /* flex-direction: row;
+    align-items: flex-end; */
+
+    width: 80%;
+    border: 1px solid red;
 }

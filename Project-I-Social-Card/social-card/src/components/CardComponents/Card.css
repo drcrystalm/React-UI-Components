@@ -1,9 +1,28 @@
 /* All styles for your Card Components live here */
 
-.card {
+.card-container {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: flex-end;
+    padding: 20px;
+    border: 1px solid gray;
 }
 
 .reactLogo {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    border-radius: 10px 10 px 0 0;
+}
+
+.website {
+    color: gray;
+    text-decoration: none;
+    font-weight: lighter;
 }
