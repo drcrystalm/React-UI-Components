@@ -7,3 +7,13 @@
     font-size: 2rem;
     text-align: end;
 }
+
+.clear {
+    width: 375px;
+    height: 100px;
+    margin-left: 550px;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: center;
+    border: 5px solid lightgray;
+}
