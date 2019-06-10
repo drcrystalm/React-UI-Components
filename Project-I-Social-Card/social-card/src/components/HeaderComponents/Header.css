@@ -1,7 +1,6 @@
 /* All styles for your header Components live here */
-.thumbnail {
-    width: 25%;
-    height: 25%;
+#lambda-crest {
+    width: 70%;
 }
 
 .header-container {
