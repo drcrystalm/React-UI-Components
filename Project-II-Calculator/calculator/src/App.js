@@ -2,6 +2,7 @@ import React from "react"
 import "./App.css"
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay"
 import Clear from "./components/DisplayComponents/Clear"
+import NumberButton from "./components/ButtonComponents/NumberButton"
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
 
             <CalculatorDisplay />
             <Clear />
+            <NumberButton />
         </div>
     )
 }

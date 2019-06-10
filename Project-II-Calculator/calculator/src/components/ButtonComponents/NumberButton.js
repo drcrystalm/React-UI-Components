@@ -3,14 +3,14 @@ import "./Button.css"
 
 const NumberButton = () => {
     return (
-        <div>
-            <div>
+        <div className='topRow'>
+            <div className='numbers'>
                 <h1>7</h1>
             </div>
-            <div>
+            <div className='numbers'>
                 <h1>8</h1>
             </div>
-            <div>
+            <div className='numbers'>
                 <h1>9</h1>
             </div>
         </div>
