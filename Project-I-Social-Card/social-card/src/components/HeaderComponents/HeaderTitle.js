@@ -15,8 +15,8 @@ import "./Header.css"
 const HeaderTitle = () => {
     return (
         <div className='title'>
-            <h3> Lambda School</h3>
-            <p> @LambdaSchool * 5 June </p>
+            <h1> Lambda School</h1>
+            <h4> @LambdaSchool &middot; 5 June </h4>
         </div>
     )
 }
