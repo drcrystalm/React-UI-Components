@@ -1,36 +1,55 @@
-.topRow {
-    display: flex;
-    flex-direction: row;
-    color: black;
+.operatorButton {
+    height: 100px;
+    width: 125px;
+    background-color: maroon;
+    color: white;
+    border: 2px solid lightgray;
+    font-size: 2rem;
+    border-collapse: collapse;
+}
+
+.numberButton {
+    width: 125px;
+    height: 100px;
+    border: 5px solid lightgray;
+    border-collapse: collapse;
     background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+.actionButton1 {
     width: 375px;
     height: 100px;
+    margin-left: 710px;
     font-size: 2rem;
-    margin-left: 550px;
-    border: 5px solid lightgray;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    border: 2px solid lightgrey;
 }
 
-.numbers {
+.actionButton {
     width: 125px;
     height: 100px;
-    border: 5px solid lightgray;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.action {
-    width: 125px;
-    /* height: 500px; */
     color: white;
     background-color: maroon;
-    border: 5px solid lightgray;
+    border: 2px solid lightgray;
+    border-collapse: collapse;
     font-size: 2rem;
+    font-weight: 200;
+    text-align: center;
 }
 
-.redButtons {
-    width: 125px;
-    height: 100px;
-    border: 5px solid lightgray;
-    text-align: center;
-    vertical-align: middle;
+.thirdNums {
+    margin-left: 710px;
+    margin-bottom: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1082px;
+    margin-top: -210px;
 }
