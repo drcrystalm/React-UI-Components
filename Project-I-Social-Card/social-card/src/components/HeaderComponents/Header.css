@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+#Lambda-crest {
+    width: 79px;
+    height: 79px;
+    margin-top: 50px;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    width: 90%;
+}
+
+.title h1 {
+    margin-left: 45px;
+    margin-bottom: 40px;
+}
+
+.title h4 {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.content {
+    width: 80%;
+    margin-left: 125px;
+}

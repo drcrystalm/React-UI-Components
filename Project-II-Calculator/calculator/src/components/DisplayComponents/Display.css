@@ -1,0 +1,20 @@
+.display {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    text-align: end;
+}
+
+.clear {
+    width: 375px;
+    height: 100px;
+    margin-left: 550px;
+    font-size: 2rem;
+    text-align: center;
+
+    /* vertical-align: middle;  Need to move the text into the center of the div... Look up perhaps line-height */
+    border: 5px solid lightgray;
+}
