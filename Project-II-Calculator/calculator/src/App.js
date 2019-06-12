@@ -17,6 +17,19 @@ const App = () => {
                     <NumberButton text='8' buttonStyle='numberButton' />
                     <NumberButton text='9' buttonStyle='numberButton' />
                 </div>
+                <div className='numBox'>
+                    <div className='fourthNums'>
+                        <NumberButton text='4' buttonStyle='numberButton' />
+                        <NumberButton text='5' buttonStyle='numberButton' />
+                        <NumberButton text='6' buttonStyle='numberButton' />
+                    </div>
+
+                    <div className='fifthNums'>
+                        <NumberButton text='1' buttonStyle='numberButton' />
+                        <NumberButton text='2' buttonStyle='numberButton' />
+                        <NumberButton text='3' buttonStyle='numberButton' />
+                    </div>
+                </div>
                 <div className='column'>
                     <NumberButton
                         text='&divide;'
@@ -27,15 +40,10 @@ const App = () => {
                     <NumberButton text='&#43;' buttonStyle='operatorButton' />
                     <NumberButton text='&#61;' buttonStyle='operatorButton' />
                 </div>
-                <NumberButton text='1' buttonStyle='numberButton' />
-                <NumberButton text='4' buttonStyle='numberButton' />
-                <NumberButton text='5' buttonStyle='numberButton' />
-                <NumberButton text='6' buttonStyle='numberButton' />
 
-                <NumberButton text='2' buttonStyle='numberButton' />
-                <NumberButton text='3' buttonStyle='numberButton' />
-
-                <NumberButton text='0' buttonStyle='numberButton' />
+                <div className='zero'>
+                    <ActionButton text='0' buttonStyle='actionButton2' />
+                </div>
             </div>
         </div>
     )

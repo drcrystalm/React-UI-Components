@@ -50,6 +50,24 @@
 .column {
     display: flex;
     flex-direction: column;
-    margin-left: 1082px;
-    margin-top: -210px;
+    margin-left: 1085px;
+    margin-top: -390px;
+}
+
+.numBox {
+    margin-left: 710px;
+    margin-top: -20px;
+}
+
+.actionButton2 {
+    width: 375px;
+    height: 100px;
+    margin-left: 710px;
+    font-size: 2rem;
+    font-weight: 200;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    border: 2px solid lightgrey;
+    margin-top: -1000px;
 }
