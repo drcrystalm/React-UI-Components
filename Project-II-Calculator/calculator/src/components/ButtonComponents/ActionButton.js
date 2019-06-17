@@ -1,26 +1,8 @@
 import React from "react"
 import "./Button.css"
 
-const ActionButtons = () => {
-    return (
-        <div className='action'>
-            <div className='redButtons'>
-                <h1>%</h1>
-            </div>
-            <div className='redButtons'>
-                <h1>x</h1>
-            </div>
-            <div className='redButtons'>
-                <h1>-</h1>
-            </div>
-            <div className='redButtons'>
-                <h1>+</h1>
-            </div>
-            <div className='redButtons'>
-                <h1>=</h1>
-            </div>
-        </div>
-    )
+const ActionButton = props => {
+    return <button className={props.buttonStyle}>{props.text}</button>
 }
 
-export default ActionButtons
+export default ActionButton
